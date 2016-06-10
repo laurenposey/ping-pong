@@ -9,19 +9,32 @@
   </head>
   <body>
     <div class="container">
-      <h1class="jumbotron text-center">Ping Pong!</h1>
-
-      <form id="pingpong-form">
-        <div class="form-group">
-          <label for="pingpong-input">Enter a number to convert into a roman numeral:</label>
-          <input id="number" required type="number">
-        </div>
-
-        <button type="submit" class="btn btn-success">Ping Pong!</button>
-      </form>
-
+      <h1 class="jumbotron text-center">Let's play some Ping Pong!</h1>
+      <div class="prettyIntro">
+        <h2>Rules:</h2>
+        <p><span class="text-danger">Ping Pong</span> will count up to your number from 1 with the following exceptions:</p>
+        <ul>
+          <li>Numbers divisible by 3 become 'ping'</li>
+          <li>Numbers divisible by 5 become 'pong'</li>
+          <li>Numbers divisible by 15 become 'pingpong'</li>
+        </ul>
+      </div>
+      <div class="prettyForm">
+        <form id="pingpong-form">
+          <div class="form-group">
+            <label for="pingpong-input">Enter a number here:</label>
+            <input class="form-control" id="number" required type="number">
+          </div>
+          <div>
+            <button type="submit" class="btn btn-success">Ping Pong!</button>
+          </div>
+        </form>
+      </div>
       <div id="result">
-        <p><span class="conversion"></span></p>
+        <h3>BOOM!</h3>
+        <img class="boxmodel" src="img/kitty-pingpong.jpg" alt="Kitties play ping-pong too!"/>
+        <ul id="returnResult">
+        </ul>
       </div>
     </div>
   </body>

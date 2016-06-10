@@ -1,0 +1,36 @@
+#result {
+  display: none;
+}
+
+body {
+  background-color: #87cefa;
+}
+
+.jumbotron {
+  color: purple;
+  background-color: #ffffe0;
+
+}
+
+.text-danger {
+  color: #ff00ff;
+  font-weight: bold;
+}
+
+.prettyForm {
+  padding: 5px 5px 5px 5px;
+  font: 12px arial, sans-serif;
+}
+
+.prettyIntro {
+  padding: 5px 5px 5px 5px;
+  font: 15px arial, sans-serif;
+  color: purple;
+}
+
+.boxmodel {
+  border: 5px solid #000000;
+  padding: 1px;
+  margin: 1px;
+  float: left;
+}
