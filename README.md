@@ -8,6 +8,8 @@
 
 _This is an Epicodus student project creating a web page that uses front-end user interface logic to gather an input and replace numbers divisible by 3, 5, or 15 with ping, pong, or pingpong. This is an lesson in Behavior Driven Development (BDD) to learn to code using just the least amount of clean code to establish true and false booleans based on expected outputs based on potential user inputs._
 
+## Specifications
+
 Behavior  | Input Example | Output Example
 ------------- | ------------- | -------------
 It can count up to the provided number  | 2 | [1,2]
