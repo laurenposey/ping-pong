@@ -13,16 +13,16 @@
       <div class="prettyIntro">
         <h2>Rules:</h2>
         <p><span class="text-danger">Ping Pong</span> will count up to your number from 1 with the following exceptions:</p>
-        <ul>
+        <ol>
           <li>Numbers divisible by 3 become 'ping'</li>
           <li>Numbers divisible by 5 become 'pong'</li>
-          <li>Numbers divisible by 15 become 'pingpong'</li>
-        </ul>
+          <li>Numbers divisible by 15 become 'ping pong'</li>
+        </ol>
       </div>
       <div class="prettyForm">
-        <form id="pingpong-form">
+        <form id="pingPongForm">
           <div class="form-group">
-            <label for="pingpong-input">Enter a number here:</label>
+            <label for="pingPongInput">Enter a number here:</label>
             <input class="form-control" id="numbers" required type="number">
           </div>
           <div>
@@ -32,8 +32,8 @@
       </div>
       <div id="result">
         <h3>BOOM!</h3>
-        <img class="boxmodel" src="img/kitty-pingpong.jpg" alt="Kitties play ping-pong too!"/>
-        <ul id="returnResult">
+        <img class="boxmodel prettyForm" src="img/kitty-pingpong.jpg" alt="Kitties play ping-pong too!"/>
+        <ul class="prettyForm" id="returnResult">
         </ul>
       </div>
     </div>

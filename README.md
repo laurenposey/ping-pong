@@ -1,6 +1,6 @@
 # _EPICODUS STUDENT PROJECT | BDD Practice: Ping-Pong_
 
-#### _Ping-Pong, June 10, 2016_
+#### _Ping-Pong, 10 June 2016_
 
 #### By _**Lauren Posey, Epicodus**_
 
@@ -11,9 +11,9 @@ _This is an Epicodus student project creating a web page that uses front-end use
 Behavior  | Input Example | Output Example
 ------------- | ------------- | -------------
 It can count up to the provided number  | 2 | [1,2]
-Numbers divisible by 3 become 'ping'  | 9  | ping
-Numbers divisible by 5 become 'pong'  | 85  | pong
-Numbers divisible by 15 become 'pingpong'  | 15  | pingpong
+Numbers divisible by 3 become 'Ping!'  | 9  | ping
+Numbers divisible by 5 become 'Pong!'  | 85  | pong
+Numbers divisible by 15 become 'Ping Pong!'  | 15  | pingpong
 
 
 ## Setup/Installation Requirements
